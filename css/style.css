@@ -1,28 +1,73 @@
+html{
+  color: white;
+  background:#566573;
+}
 h1 {
-  margin: 10px;
+  margin: 20px;
   font-variant: small-caps;
-  font-size: 3rem;
+  font-size: 4rem;
   font-family: 'Libre Franklin', sans-serif;
   letter-spacing: .1rem;
 }
+h1 > span {
+  color: #BCDCFB;
+}
 body {
   font-family: Montserrat, sans-serif;
+  margin: 20px;
 }
 
-body > h2 > span {
+
+h2 > span {
   font-variant: small-caps;
-  margin: 10px;
 }
 
 img {
-  margin: 0px 38%;
+  margin: 10px 38%;
   border-radius: 50%;
 }
 
 body > ol {
   line-height: 1.5rem;
-  border: 2px solid black;
+  border: 1px solid black;
   width: 40%;
-  margin: auto;
+  margin: 20px auto;
   padding: 20px 20px 20px 40px;
+}
+
+ol span {
+  text-align: right;
+}
+
+h3 {
+  margin-top: 8px;
+  font-weight: 600;
+  font-variant: small-caps;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+
+h3 > span {
+  font-style: italic;
+}
+
+.main-text-grey {
+  background-color: #375A7A;
+}
+div + div {
+  font-size: 14px;
+  line-height: 2rem;
+  margin: 20px;
+  padding-top: 20px;
+}
+
+#questions{
+  color: #BCDCFB;;
+  font-weight: 600;
+  box-shadow: 0px 0px 40px black;
+  padding: 10px 10px 10px 30px;
+  margin: 60px 20px 20px;
+}
+div p span {
+  color: #BCDCFB;
 }
