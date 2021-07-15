@@ -1,6 +1,9 @@
-h1{
+h1 {
+  font-variant: small-caps;
+  font-size: 3rem;
   font-family: 'Libre Franklin', sans-serif;
+  letter-spacing: .1rem;
 }
-body{
-  font-family: 'Montserrat', sans-serif;
+body {
+  font-family: Montserrat, sans-serif;
 }
